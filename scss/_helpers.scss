@@ -2,7 +2,7 @@
 // Helpers
 // ==========================================================================
 
-// Clearfix
+// Clearfix (reusable attributes in a palceholder variable)
 
 %clearfix {
   &:after {
@@ -12,7 +12,7 @@
   }
 }
 
-// Screen reader text
+// Screen reader text (hides it apparently)
 
 .srt {
 	border: 0;
@@ -25,10 +25,10 @@
 	width: 1px;
 }
 
-// For pseudo-elements
+// For pseudo-elements (reusable attributes in a palceholder variable)
 
 %pseudos {
   display: block;
-  content: ''; 
+  content: '';
   position: absolute;
 }
